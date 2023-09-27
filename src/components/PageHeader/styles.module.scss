@@ -1,0 +1,15 @@
+@import "../../theme/colors.scss";
+
+.divider {
+    margin-bottom: 5px; 
+}
+
+.dividerColor {
+    @extend .divider;
+    border-bottom: 1px solid rgba($color: $color-gray-13, $alpha: 0.25);
+}
+
+.dividerNoColor {
+    @extend .divider;
+    border-bottom: none;
+}

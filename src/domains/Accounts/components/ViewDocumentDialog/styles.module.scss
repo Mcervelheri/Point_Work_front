@@ -1,0 +1,23 @@
+.imagePreview{
+    width: 100%;
+    object-fit: contain;
+}
+
+.pdfPreview{
+    width: 100%;
+    min-height: 400px;
+    object-fit: contain;
+}
+
+.notFound{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    strong{
+        margin-left: 8px;
+        font-size: 14px;
+        color: rgb(148, 148, 148);
+    }
+}

@@ -1,0 +1,11 @@
+@import "../theme/colors.scss";
+
+:global(.ant-form-item-has-error) {
+    .reactMde {
+        border-color: $color-red-6;
+    }
+}
+
+.reactMdeTextArea {
+    line-height: 1.41em;
+}

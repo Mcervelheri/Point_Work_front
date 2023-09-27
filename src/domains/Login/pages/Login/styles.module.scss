@@ -1,0 +1,65 @@
+@import "../../../../theme/colors.scss";
+@import "../../../../theme/variables.scss";
+
+.logoImage {
+    width: 200px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-image: url("../../../../assets/bg-layer.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 50%;
+
+    img {
+        margin-bottom: 80.5px;
+        margin-top: -139px;
+    }
+
+    p {
+        color: $color-cyan-7;
+        text-align: center;
+        font-size: $large-font;
+        line-height: 24px;
+        font-weight: 500;
+        margin-bottom: 22px;
+    }
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 360px;
+}
+
+.prefixIcon {
+    color: $color-cyan-7;
+}
+
+.checkboxContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.link {
+    padding-right: 0px;
+}
+
+.footerTitle {
+    bottom: 5px;
+    position: fixed;
+
+    p {
+        color: rgba($color: $color-gray-13, $alpha: 0.45);
+        font-size: $medium-font;
+        text-align: center;
+    }
+}

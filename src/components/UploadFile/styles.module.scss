@@ -1,0 +1,74 @@
+@import '../../theme/colors.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.labelContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addButton {
+    position: relative;
+    border: solid 1px rgba($color: $color-gray-13, $alpha: 0.12);;
+    cursor: pointer;
+    max-width: fit-content;
+    padding: 4px 15px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    transition: all 0.2s;
+    color: $color-gray-12;
+
+    &:hover {
+        border-color: $color-cyan-7;
+
+        span {
+            color: $color-cyan-7;
+        }
+    }
+
+    &:active {
+        border-color: $color-cyan-8;
+
+        span {
+            color: $color-cyan-8;
+        }
+    }
+}
+
+.addButtonContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba($color: $color-gray-13, $alpha: 0.54);
+    cursor: pointer;
+}
+
+.text {
+    white-space: nowrap;
+    margin-left: 8px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.inputFile {
+    opacity: 0;
+    height: 0.1px;
+    width: 0.1px;
+}
+
+.imagePreview {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+}
+
+.addIcon {
+    font-size: 14px;
+}

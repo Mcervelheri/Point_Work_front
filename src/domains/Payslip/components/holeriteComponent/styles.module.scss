@@ -1,0 +1,41 @@
+.holeriteContainer {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    // max-width: 400px;
+    margin: 0 auto;
+    width: 100%; /* Ocupar toda a largura da tela */
+    height: 100%;
+  }
+  
+  .holeriteTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .holeriteInfo {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .holeriteDescontos, 
+  .holeriteBeneficios {
+    margin-top: 50px;
+  }
+  
+  .holeriteDescontos h3,
+  .holeriteBeneficios h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }

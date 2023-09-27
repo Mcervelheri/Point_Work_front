@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`O componente <LoadingWrapper /> NÃO deve renderiza o Spinner quando a propriedade loading for false 1`] = `
+<div
+  className={null}
+>
+  <div>
+    Não renderiza o spinnerContainer
+  </div>
+</div>
+`;
+
+exports[`O componente <LoadingWrapper /> deve renderiza o Spinner quando a propriedade loading for true 1`] = `
+<div
+  className="loadingWrapper"
+>
+  <div
+    className="spinnerContainer"
+  >
+    <span
+      className="spinner"
+    >
+      <div
+        animation="border"
+        aria-busy={true}
+        aria-live="polite"
+        className="ant-spin ant-spin-spinning"
+        role="status"
+      >
+        <span
+          className="ant-spin-dot ant-spin-dot-spin"
+        >
+          <i
+            className="ant-spin-dot-item"
+          />
+          <i
+            className="ant-spin-dot-item"
+          />
+          <i
+            className="ant-spin-dot-item"
+          />
+          <i
+            className="ant-spin-dot-item"
+          />
+        </span>
+      </div>
+    </span>
+  </div>
+  <div>
+    Renderiza o spinnerContainer
+  </div>
+</div>
+`;

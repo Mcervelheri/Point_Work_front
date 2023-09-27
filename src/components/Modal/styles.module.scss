@@ -1,0 +1,9 @@
+.modal {
+    :global {
+        .ant-modal-close-x {
+            width: 42px;
+            height: 42px;
+            line-height: 42px;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@import "../../theme/colors.scss";
+@import "../../theme/variables.scss";
+
+.version {
+    color: $color-gray-scale;
+    font-weight: 500;
+    font-size: $small-font;
+}

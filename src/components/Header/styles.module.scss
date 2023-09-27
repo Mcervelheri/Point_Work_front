@@ -1,0 +1,23 @@
+.container {
+    min-height: 50px;
+}
+
+.base {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    margin-top: 12px;
+}
+
+.title {
+    margin-left: 16px !important;
+}

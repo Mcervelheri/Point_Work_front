@@ -1,0 +1,19 @@
+@import "../../../../theme/colors.scss";
+@import "../../../../theme/variables.scss";
+
+.tabContainer {
+    display: flex;
+    margin: 0px 25px;
+}
+
+.tab {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.blockedListContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

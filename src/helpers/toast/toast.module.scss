@@ -1,0 +1,30 @@
+.errorMessage{
+    
+    & > div:nth-child(1){
+        background: #FFF1F0 !important;
+        border: 1px solid #FFCCC7;
+    }
+}
+
+.errorSuccess{
+    
+    & > div:nth-child(1){
+        background: #F6FFED !important;
+        border: 1px solid #B7EB8F;
+    }
+}
+
+.errorWarn{
+
+    & > div:nth-child(1){
+        background: #FFF7E6 !important;
+        border: 1px solid #ebd98f;
+    }
+
+}
+
+.icon{
+    margin-right: 12px;
+    width: 21px;
+    height: 21px;
+}

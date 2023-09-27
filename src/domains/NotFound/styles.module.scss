@@ -1,0 +1,40 @@
+@use "sass:math";
+
+$robot-width: 190px;
+$container-width: 800px;
+
+.container {
+    margin: auto !important;
+    margin-top: 128px !important;
+    max-width: $container-width;
+}
+
+.containerLeft {
+    margin: auto;
+    margin-bottom: 48px;
+    max-width: math.div($container-width, 2);
+}
+
+.containerRight {
+    max-width: $robot-width;
+}
+
+.descricaoErro {
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.notFoundImage {
+    max-width: $robot-width;
+    max-height: $robot-width;
+}
+
+@media (max-width: 768px) {
+    .containerRight {
+        margin: auto;
+    }
+
+    .notFoundImage {
+        margin: auto;
+    }
+}

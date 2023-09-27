@@ -1,0 +1,28 @@
+@import "../../../../theme/colors.scss";
+@import "../../../../theme/variables.scss";
+
+.filtersContainer {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.searchInput {
+    width: 256px;
+}
+
+.searchIcon {
+    color: rgba($color: $color-gray-13, $alpha: 0.15);
+}
+
+.dateInput {
+    width: 256px;
+}
+
+@media (max-width: 1228px) {
+    .filtersContainer {
+        flex-wrap: wrap;
+    }
+}

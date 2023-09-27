@@ -1,0 +1,52 @@
+@import "../../theme/colors.scss";
+@import "../../theme/variables.scss";
+
+.container {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.filterContainer {
+    @extend .container;
+    width: fit-content;
+    column-gap: 10px;
+    margin-bottom: -24px;
+}
+
+.title {
+    font-weight: 500;
+    line-height: 24px;
+    margin-right: 8px;
+    font-size: $large-font;
+}
+
+.title:first-letter {
+    text-transform: capitalize;
+}
+
+.titleTop {
+    @extend .title;
+    margin-bottom: 15px;
+}
+
+.buttonContainer {
+    display: flex;
+    column-gap: 10px;
+    margin-left: 4px;
+    flex-direction: row;
+}
+
+@media (max-width: 768px) {
+    .container {
+        align-items: center;
+    }
+
+    .buttonContainer {
+        margin-left: 0px;
+        justify-content: flex-end;
+    }
+}

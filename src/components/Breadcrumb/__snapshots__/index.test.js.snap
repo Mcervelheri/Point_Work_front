@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`O Componente <Breadcrumb /> deve ser renderizado na tela corretamente 1`] = `
+<nav
+  className="ant-breadcrumb breadcrumbContainer"
+>
+  <ol>
+    <li>
+      <span
+        className="ant-breadcrumb-link"
+      >
+        <a
+          href="/app"
+          onClick={[Function]}
+        >
+          Home
+        </a>
+      </span>
+      <span
+        className="ant-breadcrumb-separator"
+      >
+        /
+      </span>
+    </li>
+    <li>
+      <span
+        className="ant-breadcrumb-link"
+      >
+        <a
+          href="/app/contas"
+          onClick={[Function]}
+        >
+          Contas
+        </a>
+      </span>
+      <span
+        className="ant-breadcrumb-separator"
+      >
+        /
+      </span>
+    </li>
+    <li>
+      <span
+        className="ant-breadcrumb-link"
+      >
+        <a
+          href=""
+          onClick={[Function]}
+        >
+          Editar Sócios
+        </a>
+      </span>
+      <span
+        className="ant-breadcrumb-separator"
+      >
+        /
+      </span>
+    </li>
+    <li>
+      <span
+        className="ant-breadcrumb-link"
+      >
+        Home
+      </span>
+      <span
+        className="ant-breadcrumb-separator"
+      >
+        /
+      </span>
+    </li>
+  </ol>
+</nav>
+`;

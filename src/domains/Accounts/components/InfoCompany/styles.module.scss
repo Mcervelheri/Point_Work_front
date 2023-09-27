@@ -1,0 +1,20 @@
+@import "../../../../theme/colors.scss";
+@import "../../../../theme/variables.scss";
+
+.container {
+    margin-bottom: 32px;
+}
+
+.nameCompany {
+    font-weight: normal;
+    font-size: $large-font;
+    line-height: 24px;
+}
+
+.cnpjCompany {
+    font-weight: normal;
+    font-size: $medium-font;
+    line-height: 22px;
+    color: rgba($color: $color-gray-13, $alpha: 0.45); 
+    margin-top: -8px;
+}

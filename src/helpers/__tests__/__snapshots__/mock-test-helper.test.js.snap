@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quando usada a função createWithMocks renderiza corretamente os valores passados na config relacionados ao mock do useLocation 1`] = `
+<div>
+  <span>
+    Location props:
+  </span>
+  <span>
+    State example: 
+    use location test
+  </span>
+  <span>
+    key: 
+    5nvxpbdafa
+  </span>
+  <span>
+    pathname: 
+    /test-location-state
+  </span>
+  <span>
+    search: 
+    ?limit=10&page=1&sort=desc
+  </span>
+</div>
+`;

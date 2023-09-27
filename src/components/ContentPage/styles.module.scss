@@ -1,0 +1,67 @@
+.mainContainer {
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1 0;
+}
+
+.pageHeader {
+    min-height: 100%;
+    flex: 1 0;
+    position: relative;
+    margin: 16px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 56px;
+
+    @media (max-width: 767px) {
+        margin: 0;
+        padding: 16px 12px;
+    }
+
+    :global {
+        .ant-page-header-content {
+            flex: 1 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (max-width: 767px) {
+            .ant-page-header-content {
+                padding-top: 0;
+            }
+        }
+    }
+}
+
+.pageHeaderWithSider {
+    :global {
+        .ant-page-header-heading {
+            flex: 0 auto;
+
+            @media (max-width: 992px) {
+                padding-right: 48px; // largura do siderToggleButton
+            }
+        }
+    }
+}
+
+.pageHeaderContent {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.siderToggleButton {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+}
+
+.iconArrow {
+    margin-right: 12px;
+    margin-top: 4px;
+}

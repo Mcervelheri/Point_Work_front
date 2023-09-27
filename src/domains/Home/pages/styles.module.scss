@@ -1,0 +1,38 @@
+@import "../../../theme/colors.scss";
+@import "../../../theme/variables.scss";
+
+.imageLogo {
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.textWelcome {
+    font-weight: normal;
+    font-size: $medium-font;
+    line-height: 22px;
+    margin-top: 44px;
+    margin-bottom: 56px;
+}
+
+.textHelp {
+    font-weight: normal;
+    font-size: $medium-font;
+    line-height: 22px;
+    margin-bottom: 32px;
+}
+
+.shortcutsContainer {
+    display: flex;
+    column-gap: 165px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    color: $color-gray-1;
+}

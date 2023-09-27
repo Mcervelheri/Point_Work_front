@@ -1,0 +1,38 @@
+.list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    min-width: 0;
+}
+
+.modal {
+    max-width: 1200px;
+}
+
+.carousel {
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+$image-max-height: calc(100vh - 240px);
+
+.imageContainer {
+    max-height: $image-max-height;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    max-height: $image-max-height;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: inline-block;
+}

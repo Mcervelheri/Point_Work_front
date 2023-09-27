@@ -1,0 +1,64 @@
+@import "../../theme/colors.scss";
+@import "../../theme/variables.scss";
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.userContainer {
+    display: flex;
+}
+
+.buttonBellContainer {
+    border: none;
+    background-color: transparent;
+}
+
+.icon {
+    color: $color-gray-1;
+    margin-right: 30px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.nameUser {
+    margin-left: 8px;
+    font-size: $medium-font;
+    color: $color-gray-1;
+}
+
+.header {
+    padding: 0 16px;
+    font-size: $medium-font;
+    height: auto;
+    margin-bottom: -10px;
+    min-height: 64px;
+    line-height: 64px;
+    border-bottom: solid 1px rgba($color: $color-gray-13, $alpha: 0.12);
+    text-align: right;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.avatarContainer {
+    margin-left: 36px;
+}
+
+.menuButton {
+    z-index: 601;
+    margin-right: 16px;
+}
+
+.avatar {
+    cursor: pointer;
+}
+
+.opcoesItem {
+    margin-bottom: 4px;
+}

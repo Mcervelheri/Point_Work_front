@@ -1,0 +1,27 @@
+
+@import "../../theme/colors.scss";
+@import "../../theme/variables.scss";
+
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: $large-font;
+    font-weight: 500;
+}
+.content {
+    margin-top: 16px;
+}
+
+.button {
+    display: flex;
+    margin-top: 19.5px;
+    justify-content: center;
+}

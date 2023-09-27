@@ -1,0 +1,9 @@
+export const INITIAL_STATE_ORDER = null;
+export const INITIAL_STATE_LIST_ITEMS = [];
+export const INITIAL_STATE_ORDER_BY = null;
+export const INITIAL_STATE_TOTAL_ITEMS = 0;
+export const INITIAL_STATE_CURRENT_PAGE = 1;
+export const INITIAL_STATE_TOTAL_ITEMS_PER_PAGE = 10;
+export const PREFIX_ACCOUNT_IN_DOCK_PRODUCTION = '128';
+export const PREFIX_ACCOUNT_IN_DOCK_HOMOLOG = '129';
+export const FORMAT_MOMENT_TYPE = 'DD/MM/YY HH:mm:ss';

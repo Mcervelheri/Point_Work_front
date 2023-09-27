@@ -1,0 +1,19 @@
+@import "../../../../theme/colors.scss";
+@import "../../../../theme/variables.scss";
+
+.button {
+    border: none;
+    border-radius: 100%;
+    background-color: $color-cyan-7;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.title {
+    margin-top: 13px;
+    font-size: $medium-font;
+    line-height: 22px;
+    text-align: center;
+    color: $color-cyan-7;
+}
