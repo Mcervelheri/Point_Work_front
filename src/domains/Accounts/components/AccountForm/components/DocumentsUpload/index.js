@@ -5,19 +5,19 @@ import React, {
 import { SaveOutlined } from '@ant-design/icons';
 import { Button, Tooltip } from 'antd';
 
-import UploadFile from '../components/UploadFile';
-import { extractRequestError } from '../helpers/error-helper';
-import { wrapForm } from '../helpers/form-helper';
-import { messageError, messageSuccess } from '../helpers/toast';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
+import UploadFile from '../../../../../../components/UploadFile';
+import { extractRequestError } from '../../../../../../helpers/error-helper';
+import { wrapForm } from '../../../../../../helpers/form-helper';
+import { messageError, messageSuccess } from '../../../../../../helpers/toast';
+import useAsync from '../../../../../../hooks/use-async';
+import useAxios from '../../../../../../hooks/use-axios';
 import {
     UPLOAD_ACCEPT_FILES,
     UPLOAD_FILES_COMPANY,
     UPLOAD_FILES_PARTNER,
     UPLOAD_MAX_FILE_SIZE,
-} from '../values/enums/accounts';
-import { urlIntegrateCustomer, urlUploadDocument } from '../values/urls/accounts';
+} from '../../../../../../values/enums/accounts';
+import { urlIntegrateCustomer, urlUploadDocument } from '../../../../../../values/urls/accounts';
 
 import styles from './styles.module.scss';
 

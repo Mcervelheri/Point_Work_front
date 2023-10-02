@@ -5,9 +5,9 @@ import React, {
 import { MenuFoldOutlined } from '@ant-design/icons';
 import { PageHeader as AntdPageHeader, Button } from 'antd';
 
-import PageHeader from '../components/PageHeader';
-import useClassNames from '../hooks/use-classnames';
-import useScreen from '../hooks/use-screen';
+import PageHeader from '../../components/PageHeader';
+import useClassNames from '../../hooks/use-classnames';
+import useScreen from '../../hooks/use-screen';
 
 import SidePageContent from './components/SidePageContent';
 import styles from './styles.module.scss';

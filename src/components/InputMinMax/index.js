@@ -3,8 +3,8 @@ import React, { forwardRef, useCallback, useMemo } from 'react';
 import { SwapRightOutlined } from '@ant-design/icons';
 import { Input } from 'antd';
 
-import { maskMoney } from '../helpers/masks';
-import { parseDecimal } from '../helpers/parser';
+import { maskMoney } from '../../helpers/masks';
+import { parseDecimal } from '../../helpers/parser';
 
 import styles from './styles.module.scss';
 

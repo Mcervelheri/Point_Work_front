@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 
 import { Spin } from 'antd';
 
-import useClassNames from '../hooks/use-classnames';
+import useClassNames from '../../hooks/use-classnames';
 
 import styles from './index.module.scss';
 

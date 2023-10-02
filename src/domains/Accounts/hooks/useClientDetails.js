@@ -1,10 +1,10 @@
 
 import { useState } from 'react';
 
-import { extractRequestError } from '../helpers/error-helper';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
-import { urlGetClientById } from '../values/urls/accounts';
+import { extractRequestError } from '../../../../helpers/error-helper';
+import useAsync from '../../../../hooks/use-async';
+import useAxios from '../../../../hooks/use-axios';
+import { urlGetClientById } from '../../../../values/urls/accounts';
 
 const useClientDetails = () => {
     const axios = useAxios();

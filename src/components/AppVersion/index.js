@@ -1,7 +1,7 @@
 import React from 'react';
 
-import useClassNames from '../hooks/use-classnames';
-import { appVersion } from '../values/strings';
+import useClassNames from '../../hooks/use-classnames';
+import { appVersion } from '../../values/strings';
 
 import styles from './styles.module.scss';
 

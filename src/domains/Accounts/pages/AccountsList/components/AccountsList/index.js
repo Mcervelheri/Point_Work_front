@@ -4,11 +4,11 @@ import React, {
 
 import { Table } from 'antd';
 
-import { extractRequestError } from '../helpers/error-helper';
-import { maskCNPJOrCPF } from '../helpers/masks';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
-import useDidMount from '../hooks/use-did-mount';
+import { extractRequestError } from '../../../../../../helpers/error-helper';
+import { maskCNPJOrCPF } from '../../../../../../helpers/masks';
+import useAsync from '../../../../../../hooks/use-async';
+import useAxios from '../../../../../../hooks/use-axios';
+import useDidMount from '../../../../../../hooks/use-did-mount';
 
 import styles from './styles.module.scss';
 

@@ -5,17 +5,17 @@ import { Button } from 'antd';
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
-import Form from '../components/Form';
-import Input from '../components/Input';
-import { extractRequestError } from '../helpers/error-helper';
-import { wrapForm } from '../helpers/form-helper';
-import { messageError } from '../helpers/toast';
-import { validateEmail, validatePassword } from '../helpers/validations';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
-import useDidMount from '../hooks/use-did-mount';
-import { actions } from '../redux/ducks';
-import { urlLogin } from '../values/urls/authentication';
+import Form from '../../../../components/Form';
+import Input from '../../../../components/Input';
+import { extractRequestError } from '../../../../helpers/error-helper';
+import { wrapForm } from '../../../../helpers/form-helper';
+import { messageError } from '../../../../helpers/toast';
+import { validateEmail, validatePassword } from '../../../../helpers/validations';
+import useAsync from '../../../../hooks/use-async';
+import useAxios from '../../../../hooks/use-axios';
+import useDidMount from '../../../../hooks/use-did-mount';
+import { actions } from '../../../../redux/ducks';
+import { urlLogin } from '../../../../values/urls/authentication';
 
 import styles from './styles.module.scss';
 
@@ -72,7 +72,7 @@ const LoginPage = ({ form, handleSubmit }) => {
         <div className={styles.container}>
             <img
                 className={styles.logoImage}
-                src={require('../assets/Point work.png').default}
+                src={require('../../../../assets/Point work.png').default}
                 alt="Logotipo Point work"
             />
             <p>

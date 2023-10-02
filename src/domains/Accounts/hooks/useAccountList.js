@@ -1,8 +1,8 @@
 
-import { extractRequestError } from '../helpers/error-helper';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
-import { urlGetAccountList } from '../values/urls/accounts';
+import { extractRequestError } from '../../../../helpers/error-helper';
+import useAsync from '../../../../hooks/use-async';
+import useAxios from '../../../../hooks/use-axios';
+import { urlGetAccountList } from '../../../../values/urls/accounts';
 
 const useAccountList = () => {
     const axios = useAxios();

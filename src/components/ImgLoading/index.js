@@ -4,7 +4,7 @@ import React, {
 
 import { Spin } from 'antd';
 
-import useClassNames from '../hooks/use-classnames';
+import useClassNames from '../../hooks/use-classnames';
 
 import styles from './styles.module.scss';
 

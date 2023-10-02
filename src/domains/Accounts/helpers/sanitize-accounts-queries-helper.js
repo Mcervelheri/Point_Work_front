@@ -1,4 +1,4 @@
-import { isValidDate } from '../helpers/date-helper';
+import { isValidDate } from '../../../../helpers/date-helper';
 
 import { BLOCKED_TAB_TYPE } from '../pages/AccountsList/utils/constants';
 

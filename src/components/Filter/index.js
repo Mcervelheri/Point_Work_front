@@ -4,8 +4,8 @@ import { ClearOutlined, FilterOutlined } from '@ant-design/icons';
 import { Button, Tooltip } from 'antd';
 import PropTypes from 'prop-types';
 
-import { wrapForm } from '../helpers/form-helper';
-import useClassNames from '../hooks/use-classnames';
+import { wrapForm } from '../../helpers/form-helper';
+import useClassNames from '../../hooks/use-classnames';
 
 import Form from '../Form';
 import styles from './styles.module.scss';

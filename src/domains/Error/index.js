@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-import ContentPage from '../components/ContentPage';
+import ContentPage from '../../components/ContentPage';
 
 const ErrorPage = () => {
     return (

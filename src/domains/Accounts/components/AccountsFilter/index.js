@@ -2,9 +2,9 @@ import React, { useCallback, useMemo } from 'react';
 
 import { SearchOutlined } from '@ant-design/icons';
 
-import Filter from '../components/Filter';
-import Input from '../components/Input';
-import { SPD_STATUS, STATUS_TYPES } from '../values/enums';
+import Filter from '../../../../components/Filter';
+import Input from '../../../../components/Input';
+import { SPD_STATUS, STATUS_TYPES } from '../../../../values/enums';
 
 import styles from './styles.module.scss';
 

@@ -3,8 +3,8 @@ import React from 'react';
 import { Row, Col } from 'antd';
 import { Link } from 'react-router-dom';
 
-import NotFoundImage from '../assets/NotFoundImage';
-import colors from '../values/colors';
+import NotFoundImage from '../../assets/NotFoundImage';
+import colors from '../../values/colors';
 
 import styles from './styles.module.scss';
 

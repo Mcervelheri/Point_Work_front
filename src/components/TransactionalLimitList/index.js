@@ -3,9 +3,9 @@ import React, { useCallback, useMemo } from 'react';
 import { FieldTimeOutlined } from '@ant-design/icons';
 import { Button, Table } from 'antd';
 
-import TransactionalLimitsAmountDialog from '../domains/TransactionalLimits/components/TransactionalLimitsAmountDialog';
-import { maskMoney } from '../helpers/masks';
-import { TRANSACTIONAL_LIMITS_CONFIG, TRANSACTIONAL_LIMITS_TYPE } from '../values/enums/transactional-limits';
+import TransactionalLimitsAmountDialog from '../../domains/TransactionalLimits/components/TransactionalLimitsAmountDialog';
+import { maskMoney } from '../../helpers/masks';
+import { TRANSACTIONAL_LIMITS_CONFIG, TRANSACTIONAL_LIMITS_TYPE } from '../../values/enums/transactional-limits';
 
 import styles from './styles.module.scss';
 

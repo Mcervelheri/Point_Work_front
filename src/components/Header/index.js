@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Divider } from 'antd';
 
-import BackButton from '../components/BackButton';
+import BackButton from '../BackButton';
 
 import Title from '../Title';
 import styles from './styles.module.scss';

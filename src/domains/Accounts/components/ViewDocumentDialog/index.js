@@ -1,7 +1,5 @@
 /* eslint-disable no-await-in-loop */
 /* eslint-disable consistent-return */
-/* eslint-disable react-perf/jsx-no-new-object-as-prop */
-/* eslint-disable react-perf/jsx-no-new-array-as-prop */
 import React, { useMemo, useState } from 'react';
 
 import {
@@ -9,21 +7,21 @@ import {
 } from '@ant-design/icons';
 import { Button, Collapse } from 'antd';
 
-import ImgLoading from '../components/ImgLoading';
-import Modal from '../components/Modal';
-import { wrapDialog } from '../helpers/dialog-helper';
-import { extractRequestError } from '../helpers/error-helper';
+import ImgLoading from '../../../../components/ImgLoading';
+import Modal from '../../../../components/Modal';
+import { wrapDialog } from '../../../../helpers/dialog-helper';
+import { extractRequestError } from '../../../../helpers/error-helper';
 import {
     base64ToByteArr, fileUrl, isFileDocument, isFileImage,
-} from '../helpers/file-helper';
-import { wrapForm } from '../helpers/form-helper';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
+} from '../../../../helpers/file-helper';
+import { wrapForm } from '../../../../helpers/form-helper';
+import useAsync from '../../../../hooks/use-async';
+import useAxios from '../../../../hooks/use-axios';
 import {
     UPLOAD_FILES_COMPANY,
     UPLOAD_FILES_PARTNER,
-} from '../values/enums/accounts';
-import { urlDownloadDocument } from '../values/urls/accounts';
+} from '../../../../values/enums/accounts';
+import { urlDownloadDocument } from '../../../../values/urls/accounts';
 
 import styles from './styles.module.scss';
 

@@ -4,8 +4,8 @@ import { Tooltip } from 'antd';
 import moment from 'moment-timezone';
 import PropTypes from 'prop-types';
 
-import PropTypesHelper from '../helpers/proptypes-helper';
-import useClassNames from '../hooks/use-classnames';
+import PropTypesHelper from '../../helpers/proptypes-helper';
+import useClassNames from '../../hooks/use-classnames';
 
 import styles from './styles.module.scss';
 

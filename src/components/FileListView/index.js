@@ -6,8 +6,8 @@ import 'react-responsive-carousel/lib/styles/carousel.css';
 import PropTypes from 'prop-types';
 import { Carousel } from 'react-responsive-carousel';
 
-import { resolveImageUrl, isFileImage } from '../helpers/file-helper';
-import useClassNames from '../hooks/use-classnames';
+import { resolveImageUrl, isFileImage } from '../../helpers/file-helper';
+import useClassNames from '../../hooks/use-classnames';
 
 import Modal from '../Modal';
 import FileItem from './components/FileItem';

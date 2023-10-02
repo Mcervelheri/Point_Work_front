@@ -9,12 +9,12 @@ import {
     Button, Row, Col,
 } from 'antd';
 
-import Form from '../components/Form';
-import LoadingSpin from '../components/LoadingSpin';
-import { extractRequestError } from '../helpers/error-helper';
-import { wrapForm } from '../helpers/form-helper';
-import useAsync from '../hooks/use-async';
-import useZipCode from '../hooks/use-zip-code';
+import Form from '../../../../components/Form';
+import LoadingSpin from '../../../../components/LoadingSpin';
+import { extractRequestError } from '../../../../helpers/error-helper';
+import { wrapForm } from '../../../../helpers/form-helper';
+import useAsync from '../../../../hooks/use-async';
+import useZipCode from '../../../../hooks/use-zip-code';
 
 import DocumentsUpload from './components/DocumentsUpload';
 import styles from './styles.module.scss';

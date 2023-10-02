@@ -7,14 +7,14 @@ import {
 } from '@ant-design/icons';
 import { Popconfirm } from 'antd';
 
-import LoadingWrapper from '../components/LoadingWrapper';
-import { extractRequestError } from '../helpers/error-helper';
+import LoadingWrapper from '../../../LoadingWrapper';
+import { extractRequestError } from '../../../../helpers/error-helper';
 import {
     base64ToByteArr, getPreviewByType, isFileImage,
-} from '../helpers/file-helper';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
-import { urlDownloadDocument } from '../values/urls/accounts';
+} from '../../../../helpers/file-helper';
+import useAsync from '../../../../hooks/use-async';
+import useAxios from '../../../../hooks/use-axios';
+import { urlDownloadDocument } from '../../../../values/urls/accounts';
 
 import ImgLoading from '../../../ImgLoading';
 import styles from './styles.module.scss';

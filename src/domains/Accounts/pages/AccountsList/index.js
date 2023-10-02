@@ -4,8 +4,8 @@ import { UserAddOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import { useHistory } from 'react-router-dom';
 
-import Breadcrumb from '../components/Breadcrumb';
-import ContentPage from '../components/ContentPage';
+import Breadcrumb from '../../../../components/Breadcrumb';
+import ContentPage from '../../../../components/ContentPage';
 
 import AccountsList from './components/AccountsList';
 import styles from './styles.module.scss';

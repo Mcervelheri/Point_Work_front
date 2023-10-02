@@ -6,8 +6,8 @@ import React, {
 import { DatePicker } from 'antd';
 import moment from 'moment-timezone';
 
-import { maskDate } from '../helpers/masks';
-import useClassNames from '../hooks/use-classnames';
+import { maskDate } from '../../helpers/masks';
+import useClassNames from '../../hooks/use-classnames';
 
 import styles from './styles.module.scss';
 

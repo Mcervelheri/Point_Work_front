@@ -5,12 +5,12 @@ import React, {
 import { UploadOutlined } from '@ant-design/icons';
 import PropTypes from 'prop-types';
 
-import { fileImagePreview } from '../helpers/file-helper';
-import { wrapFormFieldArray } from '../helpers/form-helper';
-import { messageWarn } from '../helpers/toast';
-import { formatBytes } from '../helpers/unit-helper';
-import useClassNames from '../hooks/use-classnames';
-import { UPLOAD_MAX_FILE_SIZE } from '../values/enums/accounts';
+import { fileImagePreview } from '../../helpers/file-helper';
+import { wrapFormFieldArray } from '../../helpers/form-helper';
+import { messageWarn } from '../../helpers/toast';
+import { formatBytes } from '../../helpers/unit-helper';
+import useClassNames from '../../hooks/use-classnames';
+import { UPLOAD_MAX_FILE_SIZE } from '../../values/enums/accounts';
 
 import ImgLoading from '../ImgLoading';
 import Modal from '../Modal';

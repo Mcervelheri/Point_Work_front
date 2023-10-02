@@ -1,6 +1,6 @@
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
-import { urlGetDocumentData } from '../values/urls/accounts';
+import useAsync from '../../../../hooks/use-async';
+import useAxios from '../../../../hooks/use-axios';
+import { urlGetDocumentData } from '../../../../values/urls/accounts';
 
 const useDocumentData = () => {
     const axios = useAxios();

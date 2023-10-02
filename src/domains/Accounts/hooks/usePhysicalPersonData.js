@@ -1,6 +1,6 @@
 
-import { extractRequestError } from '../helpers/error-helper';
-import useAsync from '../hooks/use-async';
+import { extractRequestError } from '../../../../helpers/error-helper';
+import useAsync from '../../../../hooks/use-async';
 
 import useAccountDetails from './useAccountDetails';
 import useClientDetails from './useClientDetails';

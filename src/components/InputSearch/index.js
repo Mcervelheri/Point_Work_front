@@ -6,9 +6,9 @@ import React, {
 import { Empty } from 'antd';
 import throttle from 'lodash/throttle';
 
-import { wrapFormField } from '../helpers/form-helper';
-import { messageError } from '../helpers/toast';
-import useAxios from '../hooks/use-axios';
+import { wrapFormField } from '../../helpers/form-helper';
+import { messageError } from '../../helpers/toast';
+import useAxios from '../../hooks/use-axios';
 
 import Input from '../Input';
 import requestCidadesTest from './request-cidades-test';

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import ContentPage from '../components/ContentPage';
-import Icon, { AntDesign } from '../components/Icon';
+import ContentPage from '../../../components/ContentPage';
+import Icon, { AntDesign } from '../../../components/Icon';
 import {
-    PATH_ACCOUNT_LIST, PATH_NOTICE, PATH_PAYSLIP, PATH_RECHARGES, PATH_REGISTER_TIME,
-} from '../routes/paths';
+    PATH_ACCOUNT_LIST, PATH_NOTICE, PATH_PAYSLIP, PATH_REGISTER_TIME,
+} from '../../../routes/paths';
 
 import ShortcutButton from '../components/ShortcutButton';
 import styles from './styles.module.scss';
@@ -14,7 +14,7 @@ const HomePage = () => {
         <ContentPage>
             <div className={styles.container}>
                 <img
-                    src={require('../assets/Point work.png').default}
+                    src={require('../../../assets/Point work.png').default}
                     alt="Logotipo Point work"
                     className={styles.imageLogo}
                 />

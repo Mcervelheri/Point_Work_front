@@ -2,7 +2,7 @@ import React, { useCallback, useMemo } from 'react';
 
 import { Card } from 'antd';
 
-import Icon, { AntDesign } from '../components/Icon';
+import Icon, { AntDesign } from '../../../../components/Icon';
 
 import styles from './styles.module.scss';
 

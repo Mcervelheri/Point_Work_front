@@ -3,7 +3,7 @@ import React, { memo } from 'react';
 import { PageHeader as AntdPageHeader } from 'antd';
 import { useHistory } from 'react-router-dom';
 
-import useClassNames from '../hooks/use-classnames';
+import useClassNames from '../../hooks/use-classnames';
 
 import styles from './styles.module.scss';
 

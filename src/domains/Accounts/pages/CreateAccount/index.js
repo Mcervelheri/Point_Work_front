@@ -4,15 +4,15 @@ import { UserAddOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import { useHistory } from 'react-router-dom';
 
-import ContentPage from '../components/ContentPage';
-import Form from '../components/Form';
-import Input from '../components/Input';
-import { extractRequestError } from '../helpers/error-helper';
-import { wrapForm } from '../helpers/form-helper';
-import { removeMask } from '../helpers/masks';
-import { messageSuccess } from '../helpers/toast';
-import useAsync from '../hooks/use-async';
-import useAxios from '../hooks/use-axios';
+import ContentPage from '../../../../components/ContentPage';
+import Form from '../../../../components/Form';
+import Input from '../../../../components/Input';
+import { extractRequestError } from '../../../../helpers/error-helper';
+import { wrapForm } from '../../../../helpers/form-helper';
+import { removeMask } from '../../../../helpers/masks';
+import { messageSuccess } from '../../../../helpers/toast';
+import useAsync from '../../../../hooks/use-async';
+import useAxios from '../../../../hooks/use-axios';
 
 import styles from './styles.module.scss';
 

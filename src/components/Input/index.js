@@ -7,7 +7,7 @@ import {
 } from 'antd';
 import omit from 'lodash/omit';
 
-import { wrapFormField } from '../helpers/form-helper';
+import { wrapFormField } from '../../helpers/form-helper';
 
 const DatePicker = lazy(() => import('../DatePicker'));
 const Select = lazy(() => import('../Select'));

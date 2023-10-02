@@ -2,8 +2,8 @@ import React, { useState, useCallback, memo } from 'react';
 
 import { Tooltip } from 'antd';
 
-import useClassNames from '../hooks/use-classnames';
-import useScreen from '../hooks/use-screen';
+import useClassNames from '../../hooks/use-classnames';
+import useScreen from '../../hooks/use-screen';
 
 import styles from './styles.module.scss';
 
@@ -56,7 +56,6 @@ const Content = memo(() => {
 });
 
 const ScreenSizeDebugger = memo(() => {
-    if (!__DEV__) return null;
     return (
         <Content />
     );

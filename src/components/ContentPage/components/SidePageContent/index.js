@@ -3,8 +3,8 @@ import React, { useMemo, memo } from 'react';
 import { Drawer } from 'antd';
 import PropTypes from 'prop-types';
 
-import useClassNames from '../hooks/use-classnames';
-import useScreen from '../hooks/use-screen';
+import useClassNames from '../../../../hooks/use-classnames';
+import useScreen from '../../../../hooks/use-screen';
 
 import styles from './styles.module.scss';
 

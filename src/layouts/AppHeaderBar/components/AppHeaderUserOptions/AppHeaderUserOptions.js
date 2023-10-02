@@ -4,7 +4,7 @@ import { Divider } from 'antd';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-import thunks from '../redux/thunks';
+import thunks from '../../../../redux/thunks';
 
 import styles from './AppHeaderUserOptions.module.scss';
 
